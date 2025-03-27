@@ -1,69 +1,77 @@
-# Welcome to your Lovable project
 
-## Project info
+# OrderFlow - Sales Order Management System
 
-**URL**: https://lovable.dev/projects/3805ceae-323a-4621-95e2-2303f03ac513
+A minimalist, elegant sales order management application built with React and TailwindCSS, featuring a clean design inspired by Apple's design philosophy.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Dashboard:** View and manage all sales orders with intuitive sorting and filtering
+- **Order Creation:** Simple and intuitive form for creating new sales orders with multiple line items
+- **Responsive Design:** Works seamlessly on desktop and mobile devices
+- **Elegant Animations:** Smooth transitions and animations create a polished user experience
+- **Local Storage:** Orders are currently stored in the browser's local storage
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3805ceae-323a-4621-95e2-2303f03ac513) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone <repository-url>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd orderflow
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `/src/components`: Reusable UI components
+- `/src/pages`: Application pages/routes
+- `/src/lib`: Utility functions, hooks, and type definitions
 
-**Use GitHub Codespaces**
+## Usage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **View Orders**: Navigate to the dashboard to see all existing orders
+2. **Create Order**: Click "New Order" to create a sales order with multiple line items
+3. **Order Details**: Click the expand button on any order to view its details
 
-## What technologies are used for this project?
+## Future Enhancements
 
-This project is built with .
+- Backend integration with PostgreSQL database
+- User authentication and authorization
+- PDF generation for orders
+- Email notifications
+- Advanced filtering and reporting
 
-- Vite
-- TypeScript
+## Technologies Used
+
 - React
-- shadcn-ui
-- Tailwind CSS
+- TypeScript
+- TailwindCSS
+- React Router
+- React Hook Form
+- Lucide Icons
+- Shadcn UI Components
 
-## How can I deploy this project?
+## Design Philosophy
 
-Simply open [Lovable](https://lovable.dev/projects/3805ceae-323a-4621-95e2-2303f03ac513) and click on Share -> Publish.
+The application follows a minimalist design approach inspired by Apple's design principles:
 
-## I want to use a custom domain - is that possible?
+- **Simplicity and Clarity**: Clean layout with intuitive navigation
+- **High-Quality Aesthetic**: Refined color palette with subtle animations
+- **Function Over Form**: Prioritizes usability while maintaining elegant design
+- **Precision in Details**: Careful attention to spacing, typography, and interactions
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
